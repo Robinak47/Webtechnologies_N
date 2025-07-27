@@ -1,0 +1,45 @@
+
+/* child selector */
+ul>li
+{
+    list-style: square;
+    font-size: 30px;
+}
+
+/* universal selector */
+*
+{
+    text-align: center;
+    font-family: 'Cambria';
+}
+
+/* Element Selector */
+p{
+    background-color: blue;
+}
+
+/* Id Selector */
+#p3
+{
+    background-color: chocolate;
+}
+
+/* Class Selector */
+
+.d1
+{
+    font-style: italic;
+    border: solid;
+}
+
+/* Desc. Selector */
+div p
+{
+    background-color: white;
+}
+
+/* Group selector */
+h1, span, table
+{
+    background-color: darkgoldenrod;
+}
