@@ -1,0 +1,15 @@
+.container
+{
+    border: 2px,dotted,blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item
+{
+    border: 1px,solid,green;
+    width: 200px;
+    height: 200px;
+}

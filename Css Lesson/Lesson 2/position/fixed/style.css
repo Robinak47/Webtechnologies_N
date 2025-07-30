@@ -1,0 +1,14 @@
+#div1
+{
+    border: 1px, solid,black;
+    position: sticky;
+    top: 10;
+    background-color: red;
+}
+
+#div2
+{
+     border: 1px, solid,black;
+     position: absolute;
+    top: 2000px;
+}
