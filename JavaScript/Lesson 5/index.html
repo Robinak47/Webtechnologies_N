@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+    <head>
+        <script src="script.js"defer>
+             
+        </script>
+    </head>
+
+    <body>
+        <form action="" method="" id="myForm" onsubmit="return validationForm()">
+            <label for="userName"> UserName: </label>
+            <input type="text" id="userName"><br>
+            <span id="nameErr"></span><br>
+            <label for="age"> Age: </label>
+            <input type="text" id="age"><br>
+            <span id="ageErr"></span><br>
+            <label for="gender"> gender: </label>
+            <input type="radio" id="maleRB" name="gender" value="male">Male
+            <input type="radio" id="femaleRB" name="gender" value="female">Female<br>
+            <span id="genderErr"></span><br>
+            <label for="dish"> Fab Dish: </label>
+            <input type="checkbox" id="pizzaCB" value="pizza">Pizza
+            <input type="checkbox" id="pastaCB" value="pasta">Pasta
+            <input type="checkbox" id="burgerCB" value="burger">Burger<br>
+            <span id="dishErr"></span><br>
+            <label for="role">Role</label>
+            <select id="role">
+                <option id="default" value="">Choose a role</option>
+                <option id="admin" value="admin">admin</option>
+                <option id="customer" value="customer">customer</option>
+            </select><br>
+            <span id="roleErr"></span><br>
+            <input type="submit" value="submit">
+
+        </form>
+    </body>
+</html>
