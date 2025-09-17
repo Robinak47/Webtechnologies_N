@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1 id="response"></h1>
+        <script>
+            function loadDoc() {
+            const xhttp = new XMLHttpRequest();
+            xhttp.onload = function() {
+                document.getElementById("response").innerHTML = this.responseText;
+                }
+            xhttp.open("GET", "myData.txt", true);
+            xhttp.send();
+            }
+
+            setInterval(loadDoc, 1000);
+        </script>
+    </body>
+</html>
